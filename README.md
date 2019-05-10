@@ -53,9 +53,9 @@ Edit this document to include your answers after each question. Make sure to lea
    4. Explicit binding
 
    - when the function is invoked it needs a .call or .apply
-     - the function is outside of an array therefore it can be used a lot
-     - .call takes many arguements one at a time
-     - .apply can take a arguments as an array
+   - the function is outside of an array therefore it can be used a lot
+   - .call takes many arguements one at a time
+   - .apply can take a arguments as an array
 
 5. Why do we need super() in an extended class?
 
