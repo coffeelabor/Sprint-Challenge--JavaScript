@@ -8,7 +8,7 @@
  */
 
 function consume(param1, param2, callback) {
-  return callback(param1 + param2);
+  return;
 }
 
 /* Step 2: Create several functions to callback with consume();
@@ -16,8 +16,8 @@ function consume(param1, param2, callback) {
  * Create a function named multiply that returns the product of two numbers
  * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
  */
-function add(sum) {
-  return sum;
+function add() {
+  return consume.param1 + consume.param2;
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
